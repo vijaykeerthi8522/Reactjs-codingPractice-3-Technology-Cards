@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.technologyCards-bg-container {
+  background-color: #f4faff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologyCards-heading {
+  text-align: center;
+  color: #171f46;
+}
+
+.technologyCards-para {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.technologyCards-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0; */
+  padding: 0;
+}
+
+.technologyCards-sub-container {
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  /* flex-direction: row; */
+  .technologyCards-sub-container {
+    flex-direction: column;
+  }
+}
